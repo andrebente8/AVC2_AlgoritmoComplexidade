@@ -6,7 +6,7 @@ public class Livro {
     private int qtdPaginas;
     private int paginasLidas;
     
-    
+    public Livro(){}
     public Livro (String titulo, int qtdPaginas, int pgLidas){
         this.titulo = titulo;
         this.qtdPaginas = qtdPaginas;
